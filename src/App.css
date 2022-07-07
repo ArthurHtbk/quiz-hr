@@ -9,6 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background-color: #e4c4e4;
+  padding: 0 30px;
 }
 
 ::-webkit-scrollbar-track {
@@ -223,4 +224,42 @@ p a:hover {
 .funny-font {
   font-family: "Flavors", cursive;
   font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  button {
+    font-size: 1rem;
+  }
+
+  h1,
+  .title {
+    font-size: 3rem;
+  }
+
+  p,
+  legend,
+  .radio label {
+    font-size: 1.5rem;
+  }
+
+  .radio input {
+    margin: 0 30px;
+  }
+
+  .shirts,
+  .somersault,
+  .bench,
+  .tree {
+    width: 300px;
+  }
+
+  .resume {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 480px) {
+  button::before {
+    display: none;
+  }
 }
