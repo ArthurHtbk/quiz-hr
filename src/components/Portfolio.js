@@ -14,17 +14,19 @@ const Portfolio = ({ timeline, setTimeline }) => {
         </a>
       </p>
       <legend>Alors, plutôt chouette, pas vrai ?</legend>
-      <div className="radio">
-        <input type="radio" id="yes-port" name="portfolio" defaultChecked />
-        <label htmlFor="yes-port">Oui</label>
-      </div>
-      <div className="radio">
-        <input type="radio" id="other-yes-port" name="portfolio" />
-        <label htmlFor="other-yes-port">
-          J'allais dire non, mais lire l'histoire d'Arthur, qui m'a submergé
-          d'émotion, ainsi que consulter ses projets sont autant d'éléments qui
-          m'ont poussé à changer d'avis, et donc à répondre oui
-        </label>
+      <div className="radio-container">
+        <div className="radio">
+          <input type="radio" id="yes-port" name="portfolio" defaultChecked />
+          <label htmlFor="yes-port">Oui</label>
+        </div>
+        <div className="radio">
+          <input type="radio" id="other-yes-port" name="portfolio" />
+          <label htmlFor="other-yes-port">
+            J'allais dire non, mais lire l'histoire d'Arthur, qui m'a submergé
+            d'émotion, ainsi que consulter ses projets sont autant d'éléments
+            qui m'ont poussé à changer d'avis, et donc à répondre oui
+          </label>
+        </div>
       </div>
       <Pages
         on="Suivant"

@@ -134,6 +134,10 @@ button:focus-visible::after,
   opacity: 1;
 }
 
+.lit {
+  font-weight: 700;
+}
+
 a {
   text-decoration: none;
   color: #d81b45;
@@ -159,7 +163,7 @@ legend {
   margin: 30px;
 }
 
-.baby-me {
+.shirts {
   width: 500px;
 }
 

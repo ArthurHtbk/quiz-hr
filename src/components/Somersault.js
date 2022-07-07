@@ -15,17 +15,19 @@ const Somersault = ({ timeline, setTimeline }) => {
         Un gars souple comme ça, ça ferait une bonne addition à vos équipes, non
         ?
       </legend>
-      <div className="radio">
-        <input type="radio" id="yes-som" name="somersault" defaultChecked />
-        <label htmlFor="yes-som">Oui</label>
-      </div>
-      <div className="radio">
-        <input type="radio" id="other-yes-som" name="somersault" />
-        <label htmlFor="other-yes-som">
-          J'allais dire non, mais les prouesses athlétiques d'Arthur, ainsi que
-          son goût raffiné en termes de chemises, m'ont poussé à changer d'avis,
-          et donc à répondre oui
-        </label>
+      <div className="radio-container">
+        <div className="radio">
+          <input type="radio" id="yes-som" name="somersault" defaultChecked />
+          <label htmlFor="yes-som">Oui</label>
+        </div>
+        <div className="radio">
+          <input type="radio" id="other-yes-som" name="somersault" />
+          <label htmlFor="other-yes-som">
+            J'allais dire non, mais les prouesses athlétiques d'Arthur, ainsi
+            que son goût raffiné en termes de chemises, m'ont poussé à changer
+            d'avis, et donc à répondre oui
+          </label>
+        </div>
       </div>
       <Pages
         on="Suivant"
