@@ -27,7 +27,7 @@ const Home = ({ timeline, setTimeline }) => {
       </p>
       <Pages
         on="Oui, je suis prêt·e à m'avancer au devant de ma destinée"
-        off="Non, pas pour l'instant"
+        off="Pressé·e ? Laissez-moi un message !"
         timeline={timeline}
         setTimeline={setTimeline}
       />

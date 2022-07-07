@@ -15,7 +15,13 @@ const Pages = ({ on, off, timeline, setTimeline }) => {
 
   return (
     <div className="pages">
-      <a href="#top">
+      <a
+        href={
+          timeline === 0
+            ? "https://arthur-heurtebise.netlify.app/#contact"
+            : "#top"
+        }
+      >
         <button onClick={decrementationHandler}>{off}</button>
       </a>
       <a href="#top">
